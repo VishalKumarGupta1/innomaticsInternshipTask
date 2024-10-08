@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem=10px */
+}
+
+.container {
+    width: 90%;
+    margin: .1rem auto;
+    padding: 3rem;
+    max-width: 140rem;
+    min-width: 45rem;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+section {
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #b0b0b0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 2rem;
+
+    h2 {
+        font-size: 3rem;
+
+    }
+}
+
+
+.form {
+    background-color: #e7f4ff;
+    border: .1rem solid #afd7ff;
+    text-align: center;
+    
+}
+
+form {
+    text-align: left;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 1.5rem 0 .5rem 0;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 1rem;
+    
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-top: 2rem  ;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.6rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#employeeList {
+    margin-top: .1rem;
+    text-align: left;
+    padding-left: 4rem;
+}
+
+#employeeList li {
+    font-size: 2rem;
+    padding: 2rem;
+    border-bottom: .1rem solid #ddd;
+}
+
+#employeeList li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#employeeList li a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
